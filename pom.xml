@@ -74,13 +74,7 @@
 			<artifactId>twilio</artifactId>
 			<version>7.41.2</version>
 		</dependency>
-	</dependencies>
-	<distributionManagement>
-		 <snapshotRepository>
-   		 <id>nexus</id>
-   		 <url>http://13.233.173.33:8081/nexus/content/repositories/snapshots</url>
-  		 </snapshotRepository>
-	</distributionManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -114,4 +108,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	</dependencies>
+	<distributionManagement>
+		 <snapshotRepository>
+   		 <id>nexus</id>
+   		 <url>http://13.233.173.33:8081/nexus/content/repositories/snapshots</url>
+  		 </snapshotRepository>
+	</distributionManagement>
 </project>
