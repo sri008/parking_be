@@ -77,8 +77,8 @@
 	</dependencies>
 	<distributionManagement>
   	  <snapshotRepository>
-          <id>artifactory</id>
-     	  <url>http://13.232.32.7:8081/artifactory/libs-snapshot</url>
+          <id>nexus</id>
+     	  <url>http://13.233.173.33:8081/nexus/content/repositories/snapshots</url>
   	  </snapshotRepository>
         </distributionManagement>
 	
