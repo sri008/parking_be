@@ -18,9 +18,6 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
-	<properties>
-        <sonar.host.url>http://15.206.116.38:9000/</sonar.host.url>
-       </properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
