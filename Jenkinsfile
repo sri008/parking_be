@@ -3,7 +3,7 @@ pipeline {
 	stages {
       stage('Git Checkout') {
          steps {
-            git 'https://github.com/samridhi97/parking_backend.git'
+            git 'https://github.com/sri008/parking_be.git'
 		}
 	}
 	stage('Build') {
